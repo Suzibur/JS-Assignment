@@ -1,7 +1,7 @@
 // Function for convert feet to mile.
 function feetToMile(feet) {
     if (typeof (feet) == "number") {
-        let mile = feet / 5280; // 1 mile = 5280 feet.
+        let mile = feet / 5280;    //1 mile = 5280 feet.
         let reternValue = `${feet} Feet = ${mile} Mile.`;
         return reternValue;
     }
